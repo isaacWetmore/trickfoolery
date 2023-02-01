@@ -28,9 +28,9 @@ public class PlayerMovement : MonoBehaviour
     
     
     //Speed of different movement abilities
-    private float WALKSPEED = 10f;
-    private float DASHSPEED = 50f;
-    private float DASHTIME = 0.15f;
+    private float WALKSPEED = 5f;
+    private float DASHSPEED = 20f;
+    private float DASHTIME = 0.1f;
     private float DASHCD = 0.5f;
 
     public MovementState state;
